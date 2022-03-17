@@ -1,0 +1,60 @@
+@keyframes slideFromLeft {
+  0% {
+    margin-left: 150vw;
+  }
+  100% {
+    margin-left: 0vw;
+  }
+}
+@keyframes fromOpacity0To100 {
+  0% {
+    opacity: 0.1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fromOpacity100To0 {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+#slidingPageOnClickingOnTheHamburger {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: none;
+  overflow: hidden;
+  #mainDiv {
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    display: none;
+    #circledXicon {
+      top: 41px;
+      right: 41px;
+      position: absolute;
+      cursor: pointer;
+      &:active {
+        transform: translate(2px, 2px);
+      }
+    }
+    h1 {
+      font-size: 3rem;
+    }
+    p {
+      font-size: 2rem;
+    }
+  }
+}

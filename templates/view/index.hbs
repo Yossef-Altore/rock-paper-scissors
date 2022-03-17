@@ -1,0 +1,111 @@
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script defer src="./js/main.js"></script>
+    <link rel="stylesheet" href="SASS/main.css" />
+    <title>Rock, Paper, Scissors</title>
+  </head>
+
+  <body>
+    <div id="mainDivInFirst100vh">
+      <header>
+        <div id="headerAndMenuSign">
+          <div id="title">
+            <h1>Rock-Paper-Scissors</h1>
+          </div>
+          <div id="menuHamburgerSign"><img
+              src="./images/hamburger-icon.png"
+              alt="hamburger icon"
+            /></div>
+        </div>
+      </header>
+      <section id="mainSection">
+        <h2>Rock, Paper, Scissors</h2>
+        <p>Satisfy your curiosity and find out how our AI works by playing
+          against R-P-S.</p>
+        <div>
+          <img
+            src="./images/play-button.png"
+            alt="play image"
+            id="playTheGameIcon"
+          />
+          <p>PLAY THE GAME</p>
+        </div>
+      </section>
+    </div>
+    <!-- end of first 100 vh -->
+    <div id="mainDivInSecond100vh">
+      <header>
+        <h1>Rock-Paper-Scissors</h1>
+      </header>
+      <section id="theGameSection">
+        <div id="theRoundCounterDiv">
+          <h2>ROUND </h2>
+          <h2 id="roundCounter">1</h2>
+        </div>
+        <div id="theScoreCounterDiv">
+          <ul>
+            <li id="playerWinCounterli">
+              <p>WIN</p>
+              <p id="playerWinCounter">0</p>
+            </li>
+            <li id="tiesCounterli">
+              <p>TIES</p>
+              <p id="tiesCounter">0</p>
+            </li>
+            <li id="computerWinCounterli">
+              <p>WIN</p>
+              <p id="computerWinCounter">0</p>
+            </li>
+          </ul>
+        </div>
+        <div id="handImagesAndButtons">
+          <div id="playerDiv">
+            <img src="./images/rock-ltr.jpg" alt="" id="playerHandImage" />
+            <div id="playerButtons">
+              <img
+                src="./images/rock-icon.png"
+                alt="rock icon"
+                id="rockIcon"
+                class="playerIcons"
+              />
+              <img
+                src="./images/paper-icon.png"
+                alt="paperIcon"
+                id="paperIcon"
+              />
+              <img
+                src="./images/scissors-icon.png"
+                alt="scissors icon"
+                id="scissorsIcon"
+              />
+            </div>
+          </div>
+          <div id="computerDiv">
+            <img src="./images/rock-rtl.png" alt="" id="computerHandImage" />
+            <p>CAN YOU BEAT ME?!</p>
+
+          </div>
+        </div>
+      </section>
+    </div>
+    <section id="slidingPageOnClickingOnTheHamburger">
+      <div id="mainDiv">
+        <img
+          src="./images/icons8-circled-x-50.png"
+          alt="x in circle"
+          id="circledXicon"
+        />
+        <h1>Welcome to my new project</h1>
+        <p>i will build a new game!</p>
+        <p>Rock , Paper , Scissors , Spock , Lizard</p>
+
+      </div>
+
+    </section>
+  </body>
+
+</html>
